@@ -1,0 +1,3 @@
+version=4
+
+http://ftp.gnome.org/pub/GNOME/sources/hitori/([0-9.]+)/hitori-([0-9.]+).tar.(?:gz|bz2|xz)

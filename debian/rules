@@ -1,0 +1,12 @@
+#!/usr/bin/make -f
+
+export DEB_LDFLAGS_MAINT_APPEND = -Wl,-z,defs -Wl,--as-needed
+export DEB_BUILD_MAINT_OPTIONS = hardening=+all
+export CCACHE_DIR := $(CURDIR)/debian/ccache
+
+%:
+	dh $@
+
+override_dh_auto_configure:
+	dh_auto_configure -- \
+		--bindir=games

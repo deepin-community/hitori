@@ -1,0 +1,204 @@
+hitori (3.38.3-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream version 3.38.3.
+
+ -- Markus Koschany <apo@debian.org>  Fri, 24 Sep 2021 22:46:52 +0200
+
+hitori (3.38.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream version 3.38.2.
+  * Declare compliance with Debian Policy 4.6.0.
+
+ -- Markus Koschany <apo@debian.org>  Sun, 05 Sep 2021 19:06:21 +0200
+
+hitori (3.38.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream version 3.38.0.
+
+ -- Markus Koschany <apo@debian.org>  Sun, 27 Sep 2020 03:39:50 +0200
+
+hitori (3.36.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream version 3.36.0.
+  * Declare compliance with Debian Policy 4.5.0.
+  * Switch to debhelper-compat = 13.
+
+ -- Markus Koschany <apo@debian.org>  Fri, 29 May 2020 01:22:04 +0200
+
+hitori (3.34.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream version 3.34.0.
+
+ -- Markus Koschany <apo@debian.org>  Tue, 03 Sep 2019 00:22:29 +0200
+
+hitori (3.31.92-1) unstable; urgency=medium
+
+  [ Jeremy Bicha ]
+  * Team upload.
+  * Use relative directory for bindir override
+  * Install README.md.
+
+  [ Markus Koschany ]
+  * New upstream version 3.31.92.
+  * Switch to debhelper-compat = 12.
+  * Declare compliance with Debian Policy 4.4.0.
+
+ -- Markus Koschany <apo@debian.org>  Thu, 08 Aug 2019 23:52:01 +0200
+
+hitori (3.31.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream version 3.31.0.
+  * Remove get-orig-source target.
+  * Declare compliance with Debian Policy 4.3.0.
+  * Use canonical VCS URI.
+  * Switch to compat level 12.
+  * Build-depend on meson.
+
+ -- Markus Koschany <apo@debian.org>  Sun, 24 Feb 2019 01:21:19 +0100
+
+hitori (3.22.4-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream version 3.22.4.
+  * No longer build-depend on intltool. Build-depend on desktop-file-utils
+    instead. (Closes: #865773)
+  * Declare compliance with Debian Policy 4.1.1.
+
+ -- Markus Koschany <apo@debian.org>  Sat, 14 Oct 2017 00:48:50 +0200
+
+hitori (3.22.3-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream version 3.22.3.
+  * Add get-orig-source target.
+  * Drop deprecated menu file and don't install the xpm icon anymore.
+    (Closes: #856891)
+  * Declare compliance with Debian Policy 4.0.0.
+  * Convert SVN repo to Git.
+  * Use https for Format field.
+
+ -- Markus Koschany <apo@debian.org>  Fri, 23 Jun 2017 22:55:15 +0200
+
+hitori (3.22.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream version 3.22.0.
+  * Switch to compat level 10.
+    Remove autotools-dev build-dependency.
+  * Declare compliance with Debian Policy 3.9.8.
+
+ -- Markus Koschany <apo@debian.org>  Thu, 22 Sep 2016 19:07:39 +0200
+
+hitori (3.20.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Imported Upstream version 3.20.0.
+  * Do not install empty ChangeLog file.
+  * Declare compliance with Debian Policy 3.9.7.
+  * Export DEB_BUILD_MAINT_OPTIONS = hardening=+all.
+  * Update debian/copyright to copyright format 1.0.
+  * debian/watch: Use version=4.
+
+ -- Markus Koschany <apo@debian.org>  Fri, 25 Mar 2016 18:43:38 +0100
+
+hitori (3.19.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Imported Upstream version 3.19.1.
+  * Vcs-Browser: Use https.
+  * Remove lintian override.
+
+ -- Markus Koschany <apo@debian.org>  Fri, 11 Dec 2015 01:05:20 +0100
+
+hitori (3.16.1-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream release
+  * Bump gtk build-dep to 3.15
+  * Bump standards-version to 3.9.6 (no changes)
+
+ -- Jackson Doak <noskcaj@ubuntu.com>  Mon, 22 Jun 2015 06:30:44 +1000
+
+hitori (3.14.0.1-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream release
+  * debian/control:
+    - Bump gtk3 build-dep to >= 3.13.2
+
+ -- Jackson Doak <noskcaj@ubuntu.com>  Fri, 26 Sep 2014 11:59:33 +1000
+
+hitori (0.4.2-1) unstable; urgency=low
+
+  * Team upload.
+
+  [ Peter De Wachter ]
+  * New upstream version.
+  * Homepage moved to https://wiki.gnome.org/Apps/Hitori
+    - updated references in packaging and upstream source.
+
+  [ Vincent Cheng ]
+  * New upstream release (0.4.2).
+  * Removed debian/patches/, applied upstream.
+  * Update Standards version to 3.9.5.
+
+ -- Vincent Cheng <vcheng@debian.org>  Fri, 28 Feb 2014 03:13:20 -0800
+
+hitori (0.4.0-1) unstable; urgency=low
+
+  * New upstream version.
+  * Switch to minimalist debian/rules with debhelper 9.
+    - Use dh_autotools-dev to update and restore config.*.
+  * Use canonical Vcs-URI.
+  * Bumped Standards-Version to 3.9.4. No changes needed.
+
+ -- Peter De Wachter <pdewacht@gmail.com>  Sun, 30 Jun 2013 22:20:18 +0200
+
+hitori (0.3.2-1) unstable; urgency=low
+
+  * New upstream version.
+  * Fixed watch file.
+  * Bumped Standards-Version to 3.9.3. No changes needed.
+
+ -- Peter De Wachter <pdewacht@gmail.com>  Mon, 14 May 2012 21:27:50 +0200
+
+hitori (0.3.1-1) unstable; urgency=low
+
+  * New upstream version.
+  * License change: the documentation license is now
+    Creative Commons Attribution-ShareAlike 3.0 unported.
+  * Switch to dpkg-source 3.0 (quilt) format.
+  * Bumped Standards-Version to 3.9.2. No changes needed.
+
+ -- Peter De Wachter <pdewacht@gmail.com>  Sat, 18 Jun 2011 23:06:44 +0200
+
+hitori (0.2.3-1) unstable; urgency=low
+
+  * New upstream version.
+    - Fixed bug in solution verification. (Closes: #552510)
+  * Added missing build-dependency on docbook-xml.
+  * Removed obsolete dh_scrollkeeper call.
+  * Bumped Standards-Version to 3.8.3. No changes needed.
+
+ -- Peter De Wachter <pdewacht@gmail.com>  Sat, 07 Nov 2009 22:15:11 +0100
+
+hitori (0.2.2-1) unstable; urgency=low
+
+  * New upstream version.
+  * New upstrean website: updated watch file, etc.
+  * Removed obsolete dh_desktop call.
+  * Bumped Standards-Version to 3.8.1. No changes needed.
+
+ -- Peter De Wachter <pdewacht@gmail.com>  Sun, 26 Apr 2009 20:56:50 +0200
+
+hitori (0.2.1-1) unstable; urgency=low
+
+  * Initial release (Closes: #490222)
+
+ -- Peter De Wachter <pdewacht@gmail.com>  Mon, 09 Mar 2009 23:29:38 +0100
