@@ -1,3 +1,9 @@
+hitori (3.38.3-1deepin1) unstable; urgency=medium
+
+  * Fixes build compatibility with newer version of meson.
+
+ -- sisungo <sisungo@icloud.com>  Wed, 17 Sep 2025 12:44:59 +0800
+
 hitori (3.38.3-1) unstable; urgency=medium
 
   * Team upload.
